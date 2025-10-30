@@ -10,13 +10,13 @@ export default function HeroSection() {
       <div className="mt-7 sm:mt-12">
         <h1
           id="hero-title"
-          className="xl:text-[50px]/20 pr-10 sm:pr-0 max-w-screen text-[40px]/12 lg:text-[35px]/12 md:text-[45px]/15 lg:text-[40px]/15 font-bold"
+          className="xl:text-[50px]/20 pr-10 sm:pr-0 max-w-screen text-[33px]/12 lg:text-[35px]/12 md:text-[45px]/15 lg:text-[40px]/15 font-bold"
         >
           <span className="text-amber-300">Логопед онлайн для</span> <br />{" "}
           <span className="text-blue-950">детей от 3,5 лет</span>
         </h1>
 
-        <ul className="list-disc xl:text-lg/9 pr-10 sm:pr-0 max-w-screen text-sm/7 md:text-lg/9 lg:text-sm/8 mt-5 ml-5 md:ml-6 text-blue-950 font-medium">
+        <ul className="list-disc xl:text-lg/9 pr-10 sm:pr-0 max-w-screen text-[14.5px]/6 md:text-lg/9 lg:text-sm/8 mt-5 ml-5 md:ml-6 text-blue-950 font-medium">
           <li>Диагностика речи и выявление речевых нарушений</li>
           <li>Исправление звукопроношения у детей с 3,5 лет</li>
           <li>Коррекция письменной и устной речи у школьников</li>
@@ -32,7 +32,6 @@ export default function HeroSection() {
         </Link>
       </div>
 
-      {/* Декоративные изображения */}
       <Image
         quality={100}
         className="absolute w-10.5 top-30 left-[-100px] hidden xl:block"

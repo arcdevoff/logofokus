@@ -7,13 +7,13 @@ const VideoSection = () => {
     <section className="mt-24 lg:mt-32" aria-labelledby="video-section-title">
       <h2
         id="video-section-title"
-        className="text-[38px]/13 lg:text-[43px]/17 font-bold text-blue-950"
+        className="text-[30px]/13 sm:text-[38px]/13 lg:text-[43px]/17 font-bold text-blue-950"
       >
         <span className="text-amber-300">Обучение проходит</span> в игровой
         форме
       </h2>
 
-      <p className="font-medium text-lg max-w-115 my-5">
+      <p className="font-medium text-[16px] sm:text-lg max-w-115 my-4 sm:my-5">
         Каждое занятие выстраивается индивидуально с учетом интересов и
         возможностей ребёнка.
       </p>

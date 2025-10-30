@@ -7,11 +7,9 @@ const Footer = () => {
       <div className="grid grid-cols-[1fr] lg:grid-cols-[1fr_0.45fr]">
         <div className="mt-5 break-words">
           <div className="text-[30px]/12 lg:text-[50px]/17 font-bold mr-10">
-            Не нашли своего{" "}
-            <span className="text-fuchsia-500/60">вопроса?</span>
+            Не нашли своего <span className="text-pinkCustom">вопроса?</span>
             <br />
-            <span className="text-fuchsia-500/60">Спрашивайте,</span> и мы
-            ответим
+            <span className="text-pinkCustom">Спрашивайте,</span> и мы ответим
           </div>
 
           <nav

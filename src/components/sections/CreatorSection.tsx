@@ -73,7 +73,7 @@ const CreatorSection = () => {
             LogoFokus
           </h3>
 
-          <div className="mt-7 text-lg">
+          <div className="mt-7 text-[16px] sm:text-lg">
             <p>
               Впервые я столкнулась с проблемой речевого расстройства у детей в
               23 года, когда стала мамой.
@@ -100,7 +100,7 @@ const CreatorSection = () => {
                   <span className="text-lime-500">Ирина Островская</span> –
                   Логопед-дефектолог высшей квалификационной категории
                 </p>
-                <p className="mt-2 text-fuchsia-500/60">
+                <p className="mt-2 text-pinkCustom">
                   20 лет в профессии, 15 лет в частной практике
                 </p>
               </div>
@@ -153,7 +153,7 @@ const CreatorSection = () => {
               чтобы быть успешными в учебе.
             </p>
 
-            <button className="block lg:hidden mt-10 bg-lime-500 px-7 py-4 rounded-full text-white font-semibold">
+            <button className="block lg:hidden mt-10 bg-lime-500 px-6 py-3.5 sm:px-7 sm:py-4 rounded-full text-white font-semibold">
               Присоединиться к команде
             </button>
           </div>
@@ -173,7 +173,7 @@ const CreatorSection = () => {
               <span className="text-lime-500">Ирина Островская</span> –
               Логопед-дефектолог высшей квалификационной категории
             </p>
-            <p className="mt-2 text-fuchsia-500/60">
+            <p className="mt-2 text-pinkCustom">
               20 лет в профессии, 15 лет в частной практике
             </p>
           </div>
@@ -184,7 +184,6 @@ const CreatorSection = () => {
         </div>
       </div>
 
-      {/* Карусель сертификатов */}
       <div
         className="mt-25 max-w-full mx-auto flex items-center"
         aria-label="Сертификаты"

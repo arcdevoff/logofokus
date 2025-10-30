@@ -33,7 +33,7 @@ export default function BenefitsSection() {
     >
       <h2
         id="benefits-title"
-        className="text-[38px]/13 lg:text-[49px]/17 font-bold text-blue-950"
+        className="text-[34px]/12 sm:text-[38px]/13 lg:text-[49px]/17 font-bold text-blue-950"
       >
         Актуальная
         <br />
@@ -67,7 +67,7 @@ export default function BenefitsSection() {
         aria-hidden="true"
       />
 
-      <ul className="mt-20 grid gap-10 grid-cols-[1fr] sm:grid-cols-[1fr_1fr] lg:grid-cols-[1fr_1fr_1fr] font-medium">
+      <ul className="mt-12 sm:mt-20 grid gap-6 sm:gap-10 grid-cols-[1fr] sm:grid-cols-[1fr_1fr] lg:grid-cols-[1fr_1fr_1fr] font-medium">
         {benefits.map(([icon, text], i) => (
           <li key={i} className="flex items-start gap-4">
             <Image

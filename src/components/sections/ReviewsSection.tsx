@@ -63,7 +63,7 @@ const ReviewsSection = () => {
         className="text-[34px]/13 lg:text-[43px]/17 font-bold text-right mr-0 lg:mr-10"
       >
         <span className="text-blue-950">Отзывы</span>{" "}
-        <span className="text-fuchsia-500/60">наших учеников</span>
+        <span className="text-pinkCustom">наших учеников</span>
       </h2>
 
       <Image
@@ -89,7 +89,7 @@ const ReviewsSection = () => {
             {reviews.map((r, i) => (
               <li key={i} className="min-w-full px-9 lg:px-6">
                 <article className="text-left">
-                  <p className="text-[14px] lg:text-[17px] mb-4 font-medium">
+                  <p className="text-[16px] lg:text-[17px] mb-4 font-medium text-stone-900">
                     “{r.text}”
                   </p>
                   <p

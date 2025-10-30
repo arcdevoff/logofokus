@@ -31,7 +31,7 @@ const PriceSection = () => {
       <div className="grid grid-cols-[1fr_0.06fr] lg:grid-cols-[1fr_0.1fr_1fr] items-center gap-5 lg:gap-10 mt-5">
         <h2
           id="price-title"
-          className="text-[38px]/13 lg:text-[51px]/17 font-bold text-blue-950"
+          className="text-[32px]/11 sm:text-[38px]/13 lg:text-[51px]/17 font-bold text-blue-950"
         >
           Стоимость уроков <br />
           <span className="text-amber-300">и абонементов</span>
@@ -78,7 +78,7 @@ const PriceSection = () => {
                 за урок
               </span>
               {plan.extraText && (
-                <span className="block mt-2 text-fuchsia-500/60 text-[17px]">
+                <span className="block mt-2 text-pinkCustom text-[17px]">
                   {plan.extraText}
                 </span>
               )}

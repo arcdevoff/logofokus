@@ -102,7 +102,7 @@ const FaqSection = () => {
     <section aria-labelledby="faq-title" className="mt-20 lg:mt-32 p-4">
       <h2
         id="faq-title"
-        className="text-[38px]/13 lg:text-[49px]/17 font-bold text-lime-500 text-center mb-5 lg:mb-10"
+        className="text-[34px]/12 sm:text-[38px]/13 lg:text-[49px]/17 font-bold text-lime-500 text-center mb-10"
       >
         Вопрос-ответ
       </h2>

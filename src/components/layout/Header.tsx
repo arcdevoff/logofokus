@@ -21,17 +21,18 @@ const Header = () => {
   return (
     <>
       <header
-        className={`fixed w-full z-[100] flex items-center justify-between px-2 sm:px-10 py-2 mx-auto transition-all duration-300 backdrop-blur-sm ${
+        className={`fixed w-full z-[100] flex items-center justify-between px-2 sm:px-10 py-3 mx-auto transition-all duration-300 backdrop-blur-sm ${
           scrolled ? "bg-white" : "bg-white/50"
         } ${isMenuOpen && "!bg-stone-200"}`}
       >
         <Link href="/" aria-label="На главную">
           <Image
             src="/images/logo.png"
-            width={170}
-            height={170}
+            width={450}
+            height={450}
+            quality={100}
             alt="Logo"
-            className="h-auto w-[220px] sm:w-[250px]"
+            className="h-auto w-[270px] sm:w-[285px]"
           />
         </Link>
 

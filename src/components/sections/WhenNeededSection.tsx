@@ -8,7 +8,7 @@ export default function WhenNeedLogopedSection() {
     >
       <h2
         id="when-need-logoped-title"
-        className="text-[38px]/13 sm:text-[42px]/17 font-bold text-blue-950"
+        className="text-[32px]/12 sm:text-[42px]/17 font-bold text-blue-950"
       >
         Когда ребенку{" "}
         <span className="text-lime-500">
