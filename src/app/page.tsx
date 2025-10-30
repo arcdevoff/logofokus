@@ -1,5 +1,3 @@
-import Footer from "@/components/layout/Footer";
-import Header from "@/components/layout/Header";
 import MainLayout from "@/components/layout/MainLayout";
 import BenefitsSection from "@/components/sections/BenefitsSection";
 import CreatorSection from "@/components/sections/CreatorSection";

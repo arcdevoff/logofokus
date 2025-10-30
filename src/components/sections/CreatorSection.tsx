@@ -121,7 +121,7 @@ const CreatorSection = () => {
                   <span className="text-lime-500 font-semibold">
                     Образование
                   </span>
-                  : УО "МГУ" им. А.А. Кулешова
+                  : УО &quot;МГУ&quot; им. А.А. Кулешова
                 </p>
                 <p>
                   <span className="text-lime-500 font-semibold">
