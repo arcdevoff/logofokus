@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+body {
+  font-family: var(--font-montserrat), Arial, sans-serif;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  transition: 0.2s;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+.spin-slow {
+  display: block;
+  transform-origin: center;
+  animation: spin-slow 8s linear infinite;
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.section-wave::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  transform: translateX(-50%);
+  width: calc(100vw + 100px);
+  height: 890px;
+  background-color: var(--color-stone-100); /* синий цвет секции */
+  clip-path: polygon(0 0, 50% 22%, 100% 0, 100% 100%, 0 100%);
+  z-index: -10;
+}
+
+@media (max-width: 1280px) {
+  .section-wave::before {
+    clip-path: polygon(0 0, 50% 17%, 100% 0, 100% 100%, 0 100%);
+    height: 980px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .section-wave::before {
+    clip-path: polygon(0 0, 50% 10%, 100% 0, 100% 100%, 0 100%);
+    height: 1220px;
+  }
+}
