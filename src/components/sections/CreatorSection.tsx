@@ -107,33 +107,42 @@ const CreatorSection = () => {
             </div>
 
             <p className="flex gap-4 font-medium mt-5">
-              <IconHeartFilled className="text-purple-400 w-6 h-6" />
-              <span>
+              <IconHeartFilled className="text-purple-400 size-11 sm:size-6" />
+              <span className="font-semibold text-blue-950">
                 В тот момент я поняла, что хочу делать счастливее детей и их
                 родителей.
               </span>
             </p>
 
             <p className="flex gap-4 font-medium mt-5">
-              <IconHeartFilled className="text-purple-400 w-6 h-6" />
+              <IconHeartFilled className="text-purple-400 size-9 sm:size-6" />
               <div>
                 <p>
                   <span className="text-lime-500 font-semibold">
                     Образование
                   </span>
-                  : УО &quot;МГУ&quot; им. А.А. Кулешова
+                  :{" "}
+                  <span className="font-semibold text-blue-950">
+                    УО &quot;МГУ&quot; им. А.А. Кулешова
+                  </span>
                 </p>
                 <p>
                   <span className="text-lime-500 font-semibold">
                     По специальности
                   </span>
-                  : интегрированное обучение и воспитание
+                  :{" "}
+                  <span className="font-semibold text-blue-950">
+                    интегрированное обучение и воспитание
+                  </span>
                 </p>
                 <p>
                   <span className="text-lime-500 font-semibold">
                     Квалификация
                   </span>
-                  : учитель-дефектолог
+                  :{" "}
+                  <span className="font-semibold text-blue-950">
+                    учитель-дефектолог
+                  </span>
                 </p>
               </div>
             </p>
@@ -153,7 +162,7 @@ const CreatorSection = () => {
               чтобы быть успешными в учебе.
             </p>
 
-            <button className="block lg:hidden mt-10 bg-lime-500 px-6 py-3.5 sm:px-7 sm:py-4 rounded-full text-white font-semibold">
+            <button className="block lg:hidden mt-10 bg-lime-500 text-[14.5px] sm:text-[16px] px-6 py-3.5 sm:px-7 sm:py-4 rounded-full text-white font-medium">
               Присоединиться к команде
             </button>
           </div>

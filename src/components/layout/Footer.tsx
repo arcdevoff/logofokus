@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="relative mt-12 lg:mt-32 pb-10 overflow-hidden">
       <div className="grid grid-cols-[1fr] lg:grid-cols-[1fr_0.45fr]">
         <div className="mt-5 break-words">
-          <div className="text-[30px]/12 lg:text-[50px]/17 font-bold mr-10">
+          <div className="text-[30px]/12 lg:text-[50px]/17 text-blue-950 font-bold mr-10">
             Не нашли своего <span className="text-pinkCustom">вопроса?</span>
             <br />
             <span className="text-pinkCustom">Спрашивайте,</span> и мы ответим
@@ -14,7 +14,7 @@ const Footer = () => {
 
           <nav
             aria-label="Социальные сети"
-            className="my-12 flex items-center gap-7 lg:gap-14"
+            className="my-12 flex items-center gap-5 sm:gap-7 lg:gap-14"
           >
             <Link
               href="https://www.instagram.com/logoped.irynaostrovskaya/"
@@ -22,7 +22,7 @@ const Footer = () => {
               aria-label="Instagram"
             >
               <Image
-                className="max-w-15 lg:max-w-full"
+                className="max-w-11 sm:max-w-15 lg:max-w-full"
                 quality={100}
                 src="/images/instagram-logo.webp"
                 width={100}
@@ -37,7 +37,7 @@ const Footer = () => {
               aria-label="WhatsApp"
             >
               <Image
-                className="max-w-19 lg:max-w-full"
+                className="max-w-13 sm:max-w-19 lg:max-w-full"
                 quality={100}
                 src="/images/whatsapp-logo.png"
                 width={120}
@@ -52,7 +52,7 @@ const Footer = () => {
               aria-label="Telegram"
             >
               <Image
-                className="max-w-16 lg:max-w-full"
+                className="max-w-11 sm:max-w-16 lg:max-w-full"
                 quality={100}
                 src="/images/telegram-logo.webp"
                 width={100}
@@ -67,7 +67,7 @@ const Footer = () => {
               aria-label="Viber"
             >
               <Image
-                className="max-w-17 lg:max-w-full"
+                className="max-w-12 sm:max-w-17 lg:max-w-full"
                 quality={100}
                 src="/images/viber-logo.webp"
                 width={110}
@@ -99,7 +99,7 @@ const Footer = () => {
 
       <nav
         aria-label="Документы и политика конфиденциальности"
-        className="flex flex-wrap items-center text-lg gap-5 underline font-medium"
+        className="flex flex-wrap items-center text-[16px] sm:text-lg gap-3 sm:gap-5 font-semibold mt-10 sm:mt-0 text-blue-950"
       >
         <Link
           href="https://docs.google.com/document/d/1jQRRKy-nzJxIRdysy-jH6TG7PZAFd-ji8M7wunObxwY/edit?usp=sharing"
@@ -108,17 +108,22 @@ const Footer = () => {
           Условия
         </Link>
         <Link
+          className="underline text-pinkCustom "
           href="https://docs.google.com/document/d/1jQRRKy-nzJxIRdysy-jH6TG7PZAFd-ji8M7wunObxwY/edit?usp=sharing"
           target="_blank"
         >
           Публичной оферты
         </Link>
-        <Link href="https://logofokus.com/privecy-police" target="_blank">
+        <Link
+          className="underline"
+          href="https://logofokus.com/privecy-police"
+          target="_blank"
+        >
           Политика конфиденциальности
         </Link>
       </nav>
 
-      <address className="text-lg font-medium not-italic mt-8">
+      <address className="text-[16px] sm:text-lg  font-medium not-italic mt-8">
         <p className="text-lime-500">Островская Ирина Николаевна</p>
         <p>УНП МА 4837613</p>
         <p>ИМНС 716</p>

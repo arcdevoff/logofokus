@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function WhenNeedLogopedSection() {
   return (
     <section
-      className="mt-5 sm:mt-28 relative"
+      className="mt-15 lg:mt-28 relative"
       aria-labelledby="when-need-logoped-title"
     >
       <h2
@@ -54,7 +54,7 @@ export default function WhenNeedLogopedSection() {
         ].map((item, i) => (
           <li
             key={i}
-            className="flex items-start bg-white px-6 py-7 rounded-4xl gap-4 shadow-2xl"
+            className="flex items-start bg-white px-6 py-7 rounded-4xl gap-4 shadow-[0px_0px_6px_5px_rgba(152,152,152,0.2)]"
           >
             <Image
               src="/images/icons/pointer.png"

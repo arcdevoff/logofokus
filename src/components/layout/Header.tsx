@@ -5,10 +5,12 @@ import Image from "next/image";
 import Link from "next/link";
 import Menu from "./Menu";
 import { motion, AnimatePresence } from "framer-motion";
+import SocialsMenu from "./SocialsMenu";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [showMessengers, setShowMessengers] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -73,6 +75,11 @@ const Header = () => {
       <AnimatePresence>
         {isMenuOpen && <Menu onClose={() => setIsMenuOpen(false)} />}
       </AnimatePresence>
+
+      <SocialsMenu
+        setShowMessengers={setShowMessengers}
+        showMessengers={showMessengers}
+      />
     </>
   );
 };

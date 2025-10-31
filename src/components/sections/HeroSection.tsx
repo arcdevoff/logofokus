@@ -26,7 +26,7 @@ export default function HeroSection() {
 
         <Link
           href="#free"
-          className="max-w-screen inline-block text-[16px] lg:text-[14px] xl:text-[16px] xl:px-6 xl:py-3.5 mt-6 bg-lime-500 px-5 py-3 rounded-full text-white font-semibold"
+          className="max-w-screen inline-block text-[14.5px] sm:text-[16px] lg:text-[14px] xl:text-[16px] xl:px-6 xl:py-3.5 mt-6 bg-lime-500 px-4.5 sm:px-5 py-3.5 sm:py-3 rounded-full text-white font-semibold"
         >
           Бесплатная диагностика речи
         </Link>
@@ -59,13 +59,13 @@ export default function HeroSection() {
         className="hidden md:block -z-1 md:w-[750px] absolute -right-45 -top-28 lg:hidden"
       />
 
-      <div className="md:hidden -z-1 lg:hidden bottom-10 relative w-150 h-120 overflow-hidden">
+      <div className="relative mt-6  max-[650px]:right-0 max-[767px]:right-[-45px] max-[650px]:w-screen max-[650px]:h-[calc(100vw*0.80)] max-[767px]:w-150 max-[767px]:h-120 overflow-hidden md:hidden">
         <Image
           src="/images/hero-image-mob.png"
           alt="Дети занимаются онлайн с логопедом"
-          quality={100}
           fill
-          className="object-cover object-left -z-10 md:hidden"
+          quality={100}
+          className="absolute inset-0 object-cover object-left md:hidden"
         />
       </div>
     </section>
